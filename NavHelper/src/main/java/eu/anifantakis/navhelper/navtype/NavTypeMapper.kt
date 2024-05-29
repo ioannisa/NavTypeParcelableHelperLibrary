@@ -7,6 +7,14 @@ import androidx.navigation.NavType
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 
+/**
+ * Provides a NavType mapper for Parcelable objects.
+ *
+ * This function generates a NavType for a specified Parcelable type, enabling
+ * the navigation component to handle Parcelable objects in a type-safe manner.
+ *
+ * @return A NavType instance for the specified Parcelable type.
+ */
 inline fun <reified T : Parcelable> NavType.Companion.mapper(): NavType<T> {
     return object : NavType<T>(
         isNullableAllowed = false
