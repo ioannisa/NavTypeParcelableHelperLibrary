@@ -2,7 +2,7 @@
 ## Simplify passing parcelables and complex strings to the New Navigation library
 *by Ioannis Anifantakis*
 
-### [YouTube Video Explaining the Library](https://www.youtube.com/watch?v=MXRn_2l8sd4&list=PLp_FpnyDwvuDLq_I-C3tJqDiHOFuIzJgk&t=2150){:target="_blank" rel="noopener"}
+### [YouTube Video Explaining the Library](https://www.youtube.com/watch?v=MXRn_2l8sd4&list=PLp_FpnyDwvuDLq_I-C3tJqDiHOFuIzJgk&t=2150)
 
 The `NavHelper` library provides utilities to enhance Jetpack Compose navigation with type safety for Parcelable objects and the serialization of strings with special characters using URL encoding and decoding. This library requires Navigation Component version 2.8.0-alpha08 or later.
 
