@@ -2,8 +2,7 @@
 ## Simplify passing parcelables and complex strings to the New Navigation library
 *by Ioannis Anifantakis*
 
-
-[**YouTube Video Explaing the Library**]("https://www.youtube.com/watch?v=MXRn_2l8sd4&list=PLp_FpnyDwvuDLq_I-C3tJqDiHOFuIzJgk&t=2150")
+### [YouTube Video Explaining the Library](https://www.youtube.com/watch?v=MXRn_2l8sd4&list=PLp_FpnyDwvuDLq_I-C3tJqDiHOFuIzJgk&t=2150)
 
 The `NavHelper` library provides utilities to enhance Jetpack Compose navigation with type safety for Parcelable objects and the serialization of strings with special characters using URL encoding and decoding. This library requires Navigation Component version 2.8.0-alpha08 or later.
 
@@ -16,24 +15,7 @@ Features
 
 ## Installation
 
-### Install by adding directly the module to your project
-The directory `secure-persist` contains the module of this library, so you can
-1. copy it to your root folder of the project (same as you see it in this repo folders)
-2. at the bottom of your `settings.gradle` you tell android to treat the folder you copied as a module
-```kotlin
-rootProject.name = "My App Name"
-include(":app")
-include(":NavHelper") // <-- add this line so android knows this folder is a module
-```
-3. At your App-Module's `build.gradle` file dependencies, add the module that your project contains
-```kotlin
-implementation(project(":NavHelper"))
-```
-
-### Install as a Jitpack library to your dependencies
-
 [![](https://jitpack.io/v/ioannisa/NavTypeParcelableHelperLibrary.svg)](https://jitpack.io/#ioannisa/NavTypeParcelableHelperLibrary)
-
 
 1. Add this to your dependencies
 ```kotlin
